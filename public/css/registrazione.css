@@ -1,0 +1,194 @@
+html{
+    background-color: rgb(218, 116, 0);
+    font-size: 24px;
+}
+body{
+    margin-top: 10%;
+
+}
+main{
+    margin: auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: white;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+header h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Header-font", serif;
+    color: purple;
+    letter-spacing: 1px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 5px 5px 10px;
+}
+
+label.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5px 5px 10px;
+  }
+
+input[type=text], input[type=password] {
+    background-color: rgb(223, 223, 223);
+    padding: 5px;
+    border: 2px solid rgb(207, 157, 157);
+    color: black;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+input:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+
+div{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.errore p{
+    color: red;
+    width: 100%;
+    margin: 10px 5px 5px 10px;  
+   
+    
+}
+
+
+
+
+
+input[type=submit] {
+    background-color: rgb(189, 112, 189);
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    color: rgb(95, 95, 95);
+    cursor: default;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+}
+
+input[type = submit].ok {
+    background-color: purple;
+    color: black;
+    cursor: pointer;
+}
+
+label a{
+    font-size: 20px;
+}
+
+#last_label{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 750px) {
+    label{
+        width: 100%;
+    }
+
+    input{
+        margin-right: 40px;
+    }
+    body{
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 650px) {
+    label{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    input[type = text]{
+        margin-left: 0px;
+        
+    }
+
+}
+
+@media (max-width: 570px) {
+    input{
+        width: 120px;
+    }
+    header h1{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 500px) {
+    label{
+        
+        margin-left: 20px;
+    }
+    
+    #last_label a, #last_label input[type = submit]{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 440px) {
+    label{
+        font-size: 0.5rem;
+        margin-right: -15px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    label{
+        margin-right: -20px;
+    }
+    header h1{
+        font-size: 1.2rem;
+    }
+    label.login input{
+        margin-right: 25px;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+    label{
+        font-size:0.4rem;
+    }
+
+    #last_label a, #last_label input[type = submit]{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    label{
+        font-size:0.3rem;
+    }
+
+    #last_label a, #last_label input[type = submit]{
+        font-size: 10px;
+    }
+
+}
+
